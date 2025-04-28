@@ -1,705 +1,545 @@
 <!DOCTYPE html>
-<html lang="zh_TW">
+<html lang="zh-Hant">
+
 <head>
-
-	<!-- Basic -->
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>你好！我是 Howard｜Howard.Taipei</title>
-	<meta name="description" content="我是許軒豪，目前就讀於淡江大學教育科技學系，對於行銷、設計、攝影領域非常有興趣。因此成立了「異想天開影像製作」，並擔任攝影總監、團隊負責人，帶領夥伴一同製作大大小小的專案，曾與多家中小型企業合作。">
-	<meta name="keywords" content="許軒豪,異想天開影像製作,影片剪輯,影片拍攝,商業影片製作,節目製作,Howard,軒豪,淡江大學教科系,淡江高中人文社會班,異想天開影像,異想天開影像製作,活動紀錄,淡江大學,extrastudio">
-	<meta property="og:title" content="你好！我是許軒豪 Howard｜CEO - 異想天開影像製作" />
-	<meta property="og:image" content="assets/images/web-clip.png" />
-	<meta property="og:description" content="我是許軒豪，目前就讀於淡江大學教育科技學系，對於行銷、設計、攝影領域非常有興趣。因此成立了「異想天開影像製作」，並擔任攝影總監、團隊負責人，帶領夥伴一同製作大大小小的專案，曾與多家中小型企業合作。" />
-
-	<!-- Mobile Specific Metas -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-
-	<!-- Load Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,100,300italic,300,100italic,400italic,500,500italic,700,700italic&amp;subset=latin,cyrillic' rel='stylesheet'>
-
-	<!-- CSS -->
-	<link rel="stylesheet" href="assets/css/glitche-basic.css" />
-	<link rel="stylesheet" href="assets/css/ionicons.css" />
-	<link rel="stylesheet" href="assets/css/magnific-popup.css" />
-	<link rel="stylesheet" href="assets/css/animate.css" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="stylesheet" href="assets/css/custom.css" />
-	<link rel="stylesheet" href="assets/css/skills.css" />
-
-	<!-- Dark Mode -->
-	<!-- <link rel="stylesheet" href="assets/css/dark.css" /> -->
-
-	<!-- Favicons -->
-	<link rel="shortcut icon" href="assets/images/favicons/favicon.ico">
-
+  <meta charset="UTF-8">
+  <title>淡江大學教育科技學系｜系所簡介</title>
+  <meta name="description" content="淡江大學教育科技學系簡介">
+  <meta name="keywords" content="淡江大學, 教育科技學系, 系所介紹, 數位學習">
+  <meta name="author" content="淡江大學教育科技學系">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="icon" href="img/favicon/favicon.ico" sizes="any">
+  <link rel="icon" href="img/favicon/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+  <link rel="manifest" href="img/favicon/manifest.webmanifest">
+  <link rel="stylesheet" type="text/css" href="css/loaders/loader.css">
+  <link rel="stylesheet" type="text/css" href="css/plugins.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <meta name="theme-color" content="#0c0c0c">
+  <meta name="msapplication-navbutton-color" content="#0c0c0c">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#0c0c0c">
 </head>
 
 <body>
 
-	<!-- Preloader -->
-	<div class="preloader">
-		<div class="centrize full-width">
-			<div class="vertical-center">
-				<div class="pre-inner">
-					<div class="load typing-load"><p>跑跑跑，向前跑...</p></div>
-					<span class="typed-load"></span>
-				</div>
-			</div>
-		</div>
-	</div>
+<div class="loader">
+  <div class="loader__content">
+    <div class="loader__logo">
+      <img src="img/logo.svg" alt="淡江大學教育科技學系簡介">
+    </div>
+  </div>
+</div>
 
-	<!-- Container -->
-	<div class="container">
+<nav id="nav" class="nav">
+  <div class="nav__container">
+    <div class="nav__background"></div>
+    <div class="nav__content text-center">
+      <ul class="navigation">
+        <li><a id="home-trigger" class="nav__link" href="#0"><span class="link-title">首頁</span><span class="link-hover">首頁</span></a></li>
+        <li><a id="about-trigger" class="nav__link" href="#0"><span class="link-title">關於教科</span><span class="link-hover">關於教科</span></a></li>
+        <li><a id="works-trigger" class="nav__link" href="#0"><span class="link-title">課程規劃</span><span class="link-hover">課程規劃</span></a></li>
+        <li><a id="contact-trigger" class="nav__link" href="#0"><span class="link-title">未來發展</span><span class="link-hover">未來發展</span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-		<!-- Header -->
-		<header class="fixed left-0 top-[30px] w-full z-[100] text-right bg-white opacity-100 visible">
-			<div class="head-top px-[65px] pt-[30px] pb-[15px]">
-				<a href="#" class="menu-btn"><span></span></a>
-				<div class="top-menu">
-					<ul class="anchor_nav">
-						<li class="active ml-[50px] inline-block align-top"><a href="#section-home" class="lnk block mt-[12px]">首頁</a></li>
-						<li class="ml-[50px] inline-block align-top"><a href="#section-resume" class="lnk block mt-[12px]">認識我</a></li>
-						<li class="ml-[50px] inline-block align-top"><a href="#section-portfolio" class="lnk block mt-[12px]">作品集</a></li>
-						<li class="ml-[50px] inline-block align-top"><a href="#section-blog" class="lnk block mt-[12px]">文章</a></li>
-						<li class="ml-[50px] inline-block align-top"><a href="#section-contacts" class="btn mt-0">聯絡我</a></li>
-					</ul>
-				</div>
-			</div>
-		</header>
+<header id="header" class="header split">
+  <div class="container-fluid px-0 fullheight-mobile">
+    <div class="row gx-0 fullheight-mobile">
+      <div class="col-6 fullheight-mobile header__left">
+        <div class="logo">
+          <img src="img/logo.png" alt="淡江大學教育科技學系" style="width: 18%; height: auto;">
+        </div>
+      </div>
+      <div class="col-6 fullheight header__right">
+        <div class="menu-button">
+          <a href="#0" id="menu-trigger" class="menu-trigger">
+            <span class="burger"></span>
+            <span class="circle"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 
-		<!-- Wrapper -->
-		<div class="wrapper">
+    <section id="main" class="main">
 
-			<!-- Started -->
-			<div class="section started relative z-[97] opacity-100 visible text-center p-0 m-0" id="section-home">
-				<div class="centrize full-width">
-					<div class="vertical-center">
-						<div class="started-content inline-block align-middle text-center relative">
-							<div class="h-title text-[68px] font-roboto text-[#141414] font-bold uppercase tracking-[0.04em] mx-0 mt-[10px] mb-[5px] glitch-effect" data-text="I'm Howard">I'm <span>Howard</span></div>
-							<div class="h-subtitle text-[13px] typing-subtitle">
-								<p>Photographer and Designer</p>
-								<p>Based in Taipei,Taiwan.</p>
-							</div>
-							<span class="typed-subtitle text-[13px]"></span>
-						</div>
-					</div>
-				</div>
-			</div>
+      <div class="main__content fullheight">
+        <div class="container-fluid px-0 fullheight">
+          <div class="row gx-0 fullheight">
 
-			<!-- About -->
-			<div class="section about relative z-[97] px-[80px] pt-0 pb-[150px] opacity-100 visible" id="section-resume">
-				<div class="content relative">
-					<div class="title relative mb-[40px]">
-						<div class="title_inner inline-block align-middle text-center relative leading-[18px] text-[13px] text-[#141414] uppercase tracking-[0.04em]">About Me</div>
-					</div>
-					<div class="image float-left">
-						<img class="w-full h-full rounded-[100px] inline-block" src="assets/images/man1.jpg" alt="" />
-					</div>
-					<div class="desc ml-[130px]">
-						<p>
-							我是許軒豪，目前就讀於淡江大學教育科技學系，對於行銷、設計、攝影領域非常有興趣。因此成立了「異想天開影像製作」，並擔任攝影總監、團隊負責人，帶領夥伴一同製作大大小小的專案，曾與多家中小型企業合作。
-						</p>
-						<div class="info-list mb-[42px]">
-							<ul>
-								<li class="inline-block align-top w-[32%] mt-[12px] mb-0 mx-0"><strong class="font-normal text-extra-color">全名:</strong> 許軒豪</li>
-								<li class="inline-block align-top w-[32%] mt-[12px] mb-0 mx-0"><strong class="font-normal text-extra-color">年紀:</strong> 20 歲</li>
-								<li class="inline-block align-top w-[32%] mt-[12px] mb-0 mx-0"><strong class="font-normal text-extra-color">正職:</strong> 平面/動態攝影師</li>
-								<li class="inline-block align-top w-[32%] mt-[12px] mb-0 mx-0"><strong class="font-normal text-extra-color">學歷:</strong> 淡江大學教育科技學系三年級</li>
-								<li class="inline-block align-top w-[32%] mt-[12px] mb-0 mx-0"><strong class="font-normal text-extra-color">居住地: </strong>臺灣新北市</li>
-								<li class="inline-block align-top w-[32%] mt-[12px] mb-0 mx-0"><strong class="font-normal text-extra-color">E-mail:</strong> hi@howard.taipei</li>
-							</ul>
-						</div>
-						<div class="bts"><a href="https://www.linkedin.com/in/howardhsutw" class="btn fill" data-text="前往 Linkedin">前往 Linkedin</a></div>
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
+            <div class="col-12 col-xl-6 main__intro fullheight">
 
-			<!-- Resume -->
-			<div class="section resume relative z-[97] px-[80px] pt-0 pb-[150px] opacity-100 visible">
-				<div class="content relative">
-					<div class="cols">
-						<div class="col col-md">
-							<div class="title relative mb-[40px]">
-								<div class="title_inner inline-block align-middle text-center relative leading-[18px] text-[13px] text-[#141414] uppercase tracking-[0.04em]">Experience</div>
-							</div>
-							<div class="resume-items">
-								<div class="resume-item active relative px-[30px] pt-0 pb-[60px]">
-									<div class="date relative top-[-10px] mx-0 mt-0 mb-[5px] inline-block py-0 px-[5px] h-[20px] leading-[18px] font-medium text-[11px] text-extra-color border-solid border-extra-color border">2022 - Now</div>
-									<div class="name font-medium text-[#141414] mx-0 mt-0 mb-[15px]">CEO - Extra Studio Production</div>
-									<p class="!m-0">
-										I established a studio and took on the roles of marketing and community management within the company, while also serving as the Director of Photography, leading the team in creating various projects and growing together.
-									</p>
-								</div>
-								<div class="resume-item active relative px-[30px] pt-0 pb-[60px]">
-									<div class="date relative top-[-10px] mx-0 mt-0 mb-[5px] inline-block py-0 px-[5px] h-[20px] leading-[18px] font-medium text-[11px] text-extra-color border-solid border-extra-color border">2023 - Now</div>
-									<div class="name font-medium text-[#141414] mx-0 mt-0 mb-[15px]">Senior Tutor - Superb Education</div>
-								</div>
-								<div class="resume-item active relative px-[30px] pt-0">
-									<div class="date relative top-[-10px] mx-0 mt-0 mb-[5px] inline-block py-0 px-[5px] h-[20px] leading-[18px] font-medium text-[11px] text-extra-color border-solid border-extra-color border">2021 - Now</div>
-									<div class="name font-medium text-[#141414] mx-0 mt-0 mb-[15px]">Photographer - B612 Wedding</div>
-									<p class="!m-0">
-										I currently serve as the team's photographer, focusing on wedding, bridal, and both still photography and videography.I currently serve as the team's photographer, primarily focusing on wedding, bridal, and both still photography and videography.
-									</p>
-								</div>
 
-							</div>
-						</div>
-						<div class="col col-md">
-							<div class="title relative mb-[40px]">
-								<div class="title_inner inline-block align-middle text-center relative leading-[18px] text-[13px] text-[#141414] uppercase tracking-[0.04em]">Education</div>
-							</div>
-							<div class="resume-items">
-								<div class="resume-item active relative px-[30px] pt-0 pb-[60px]">
-									<div class="date relative top-[-10px] mx-0 mt-0 mb-[5px] inline-block py-0 px-[5px] h-[20px] leading-[18px] font-medium text-[11px] text-extra-color border-solid border-extra-color border">2021 - 2025</div>
-									<div class="name font-medium text-[#141414] mx-0 mt-0 mb-[15px]">Tamkang University</div>
-									<p class="!m-0">
-										Associate's degree, Department of Educational Technology.
-									</p>
-								</div>
-								<div class="resume-item active relative px-[30px] pt-0 pb-[60px]">
-									<div class="date relative top-[-10px] mx-0 mt-0 mb-[5px] inline-block py-0 px-[5px] h-[20px] leading-[18px] font-medium text-[11px] text-extra-color border-solid border-extra-color border">2019 - 2021</div>
-									<div class="name font-medium text-[#141414] mx-0 mt-0 mb-[15px]">High School - Private Tamkang High School</div>
-									<p class="!m-0">
-										Humanities and Social Sciences
-									</p>
-								</div>
-								<div class="resume-item active relative px-[30px] pt-0">
-									<div class="date relative top-[-10px] mx-0 mt-0 mb-[5px] inline-block py-0 px-[5px] h-[20px] leading-[18px] font-medium text-[11px] text-extra-color border-solid border-extra-color border">2017-2019</div>
-									<div class="name font-medium text-[#141414] mx-0 mt-0 mb-[15px]">Junior High School - Private Tamkang High School</div>
-									<p class="!m-0">
+              <div class="intro__background">
 
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+                <div id="triangles-js"></div>
+              </div>
 
-			<!-- Skills -->
-			<div class="section skills relative z-[97] px-[80px] pt-0 pb-[150px] opacity-100 visible">
-				<div class="content">
-					<div class="title relative mb-[40px]">
-						<div class="title_inner inline-block align-middle text-center relative leading-[18px] text-[13px] text-[#141414] uppercase tracking-[0.04em]">Knowledge</div>
-					</div>
-					<div class="skills list">
-						<ul class="p-0 list-none text-[0] my-0 mx-[-30px]">
-							<li class="relative pt-0  pb-[10px] px-[30px] inline-block align-top w-1/2">
-								<div class="name pl-[23px] relative text-[13px] font-normal mt-0 mx-0 mb-[9px] text-[#363636]">Web Development(HTML, WordPress)</div>
-							</li>
-							<li class="relative pt-0  pb-[10px] px-[30px] inline-block align-top w-1/2">
-								<div class="name pl-[23px] relative text-[13px] font-normal mt-0 mx-0 mb-[9px] text-[#363636]">UI/UX Design(XD, Figma)</div>
-							</li>
-							<li class="relative pt-0  pb-[10px] px-[30px] inline-block align-top w-1/2">
-								<div class="name pl-[23px] relative text-[13px] font-normal mt-0 mx-0 mb-[9px] text-[#363636]">Videography</div>
-							</li>
-							<li class="relative pt-0  pb-[10px] px-[30px] inline-block align-top w-1/2">
-								<div class="name pl-[23px] relative text-[13px] font-normal mt-0 mx-0 mb-[9px] text-[#363636]">Photography</div>
-							</li>
-							<li class="relative pt-0  pb-[10px] px-[30px] inline-block align-top w-1/2">
-								<div class="name pl-[23px] relative text-[13px] font-normal mt-0 mx-0 mb-[9px] text-[#363636]">Project Management</div>
-							</li>
-							<li class="relative pt-0  pb-[10px] px-[30px] inline-block align-top w-1/2">
-								<div class="name pl-[23px] relative text-[13px] font-normal mt-0 mx-0 mb-[9px] text-[#363636]">Advertising services</div>
-							</li>
-							<li class="relative pt-0  pb-[10px] px-[30px] inline-block align-top w-1/2">
-								<div class="name pl-[23px] relative text-[13px] font-normal mt-0 mx-0 mb-[9px] text-[#363636]">Graphics and animations</div>
-							</li>
-							<li class="relative pt-0  pb-[10px] px-[30px] inline-block align-top w-1/2">
-								<div class="name pl-[23px] relative text-[13px] font-normal mt-0 mx-0 mb-[9px] text-[#363636]">Social media marketing</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
 
-			<!-- Service -->
-			<div class="section service relative z-[97] px-[80px] pt-0 pb-[150px] opacity-100 visible">
-				<div class="content relative">
-					<div class="title relative">
-						<div class="title_inner inline-block align-middle text-center relative leading-[18px] text-[13px] text-[#141414] uppercase tracking-[0.04em]">Knowledge</div>
-					</div>
-					<div class="service-items">
-						<div class="service-item inline-block align-top w-[28%] mt-[50px] mr-[4%] mb-0 ml-0">
-							<div class="icon float-left w-[36px] text-center text-[30px] text-extra-color"><span class="ion ion-social-html5 block"></span></div>
-							<div class="name font-medium text-[13px] text-[#141414] mt-[6px] mr-0 mb-0 ml-[46px]">WordPress</div>
-							<p class="!mb-0">我很懶，還沒打內容。</p>
-						</div>
-						<div class="service-item inline-block align-top w-[28%] mt-[50px] mr-[4%] mb-0 ml-0">
-							<div class="icon float-left w-[36px] text-center text-[30px] text-extra-color"><span class="ion ion-ipad block"></span></div>
-							<div class="name font-medium text-[13px] text-[#141414] mt-[6px] mr-0 mb-0 ml-[46px]">UI/UX Design</div>
-							<p class="!mb-0">我很懶，還沒打內容。</p>
-						</div>
-						<div class="service-item inline-block align-top w-[28%] mt-[50px] mr-[4%] mb-0 ml-0">
-							<div class="icon float-left w-[36px] text-center text-[30px] text-extra-color"><span class="ion ion-camera block"></span></div>
-							<div class="name font-medium text-[13px] text-[#141414] mt-[6px] mr-0 mb-0 ml-[46px]">Photography</div>
-							<p class="!mb-0">我很懶，還沒打內容。</p>
-						</div>
-						<div class="service-item inline-block align-top w-[28%] mt-[50px] mr-[4%] mb-0 ml-0">
-							<div class="icon float-left w-[36px] text-center text-[30px] text-extra-color"><span class="ion ion-videocamera block"></span></div>
-							<div class="name font-medium text-[13px] text-[#141414] mt-[6px] mr-0 mb-0 ml-[46px]">Video Editor</div>
-							<p class="!mb-0">我很懶，還沒打內容。</p>
-						</div>
-						<div class="service-item inline-block align-top w-[28%] mt-[50px] mr-[4%] mb-0 ml-0">
-							<div class="icon float-left w-[36px] text-center text-[30px] text-extra-color"><span class="ion ion-laptop block"></span></div>
-							<div class="name font-medium text-[13px] text-[#141414] mt-[6px] mr-0 mb-0 ml-[46px]">Computer service</div>
-							<p class="!mb-0">我很懶，還沒打內容。</p>
-						</div>
-						<div class="service-item inline-block align-top w-[28%] mt-[50px] mr-[4%] mb-0 ml-0">
-							<div class="icon float-left w-[36px] text-center text-[30px] text-extra-color"><span class="ion ion-social-chrome block"></span></div>
-							<div class="name font-medium text-[13px] text-[#141414] mt-[6px] mr-0 mb-0 ml-[46px]">Marketing Supervisor</div>
-							<p class="!mb-0">我很懶，還沒打內容。</p>
-						</div>
-					</div>
-				</div>
-			</div>
 
-			<!-- Clients -->
-			<div class="section clients relative z-[97] px-[80px] pt-0 pb-[150px] opacity-100 visible">
-				<div class="content relative">
-					<div class="title relative mb-[40px]">
-						<div class="title_inner inline-block align-middle text-center relative leading-[18px] text-[13px] text-[#141414] uppercase tracking-[0.04em]">Clients</div>
-					</div>
-					<div class="box-items relative overflow-hidden ml-[-3%]">
-						<div class="box-item w-[30.333333%] mt-0 mr-0 mb-[3%] ml-[3%] relative overflow-hidden text-center">
-							<div class="image relative">
-								<a class="block text-[0]" target="_blank" href="https://www.extrastudio.tw/videography/2023/4286/">
-									<img class="w-full h-auto relative top-0" src="assets/images/clients/client_1.png" alt="" />
-									<span class="info text-center w-full h-full block absolute left-0 top-0 opacity-0 p-[18px]">
-										<span class="centrize w-full max-w-full bg-extra-color">
-											<span class="vertical-center">
-												<span class="ion ion-link text-white text-[38px] inline-block"></span>
-											</span>
-										</span>
-									</span>
-								</a>
-							</div>
-						</div>
-						<div class="box-item w-[30.333333%] mt-0 mr-0 mb-[3%] ml-[3%] relative overflow-hidden text-center">
-							<div class="image relative">
-								<a class="block text-[0]" target="_blank" href="https://www.extrastudio.tw/videography/2023/4328/">
-									<img class="w-full h-auto relative top-0" src="assets/images/clients/client_2.png" alt="" />
-									<span class="info text-center w-full h-full block absolute left-0 top-0 opacity-0 p-[18px]">
-										<span class="centrize w-full max-w-full bg-extra-color">
-											<span class="vertical-center">
-												<span class="ion ion-link text-white text-[38px] inline-block"></span>
-											</span>
-										</span>
-									</span>
-								</a>
-							</div>
-						</div>
-						<div class="box-item w-[30.333333%] mt-0 mr-0 mb-[3%] ml-[3%] relative overflow-hidden text-center">
-							<div class="image relative">
-								<a class="block text-[0]" target="_blank" href="https://www.youtube.com/@yoi4559">
-									<img class="w-full h-auto relative top-0" src="assets/images/clients/client_3.png" alt="" />
-									<span class="info text-center w-full h-full block absolute left-0 top-0 opacity-0 p-[18px]">
-										<span class="centrize w-full max-w-full bg-extra-color">
-											<span class="vertical-center">
-												<span class="ion ion-link text-white text-[38px] inline-block"></span>
-											</span>
-										</span>
-									</span>
-								</a>
-							</div>
-						</div>
-						<div class="box-item w-[30.333333%] mt-0 mr-0 mb-[3%] ml-[3%] relative overflow-hidden text-center">
-							<div class="image relative">
-								<a class="block text-[0]" target="_blank" href="https://www.extrastudio.tw/videography/commercial/2023/3540/">
-									<img class="w-full h-auto relative top-0" src="assets/images/clients/client_4.png" alt="" />
-									<span class="info text-center w-full h-full block absolute left-0 top-0 opacity-0 p-[18px]">
-										<span class="centrize w-full max-w-full bg-extra-color">
-											<span class="vertical-center">
-												<span class="ion ion-link text-white text-[38px] inline-block"></span>
-											</span>
-										</span>
-									</span>
-								</a>
-							</div>
-						</div>
-						<div class="box-item w-[30.333333%] mt-0 mr-0 mb-[3%] ml-[3%] relative overflow-hidden text-center">
-							<div class="image relative">
-								<a class="block text-[0]" target="_blank" href="https://www.youtube.com/@aqive888">
-									<img class="w-full h-auto relative top-0" src="assets/images/clients/client_5.png" alt="" />
-									<span class="info text-center w-full h-full block absolute left-0 top-0 opacity-0 p-[18px]">
-										<span class="centrize w-full max-w-full bg-extra-color">
-											<span class="vertical-center">
-												<span class="ion ion-link text-white text-[38px] inline-block"></span>
-											</span>
-										</span>
-									</span>
-								</a>
-							</div>
-						</div>
-						<div class="box-item w-[30.333333%] mt-0 mr-0 mb-[3%] ml-[3%] relative overflow-hidden text-center">
-							<div class="image relative">
-								<a class="block text-[0]" target="_blank" href="https://www.youtube.com/playlist?list=PL7Zhv_q9R5F3KRiPQeKj5gbyBQJkr6s7S">
-									<img class="w-full h-auto relative top-0" src="assets/images/clients/client_6.png" alt="" />
-									<span class="info text-center w-full h-full block absolute left-0 top-0 opacity-0 p-[18px]">
-										<span class="centrize w-full max-w-full bg-extra-color">
-											<span class="vertical-center">
-												<span class="ion ion-link text-white text-[38px] inline-block"></span>
-											</span>
-										</span>
-									</span>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
+              <div class="intro__content fullheight">
 
-			<!-- Works -->
-			<!--div class="section works relative z-[97] px-[80px] pt-0 pb-[150px] opacity-100 visible" id="section-portfolio">
-				<div class="content relative">
-					<div class="title relative mb-[40px]">
-						<div class="title_inner inline-block align-middle text-center relative leading-[18px] text-[13px] text-[#141414] uppercase tracking-[0.04em]">近期作品</div>
-					</div>
-					<div class="filter-menu">
-						<div class="filters mb-[30px]">
-							<div class="btn-group inline-block align-top">
-								<label data-text="精選作品" class="glitch-effect inline-block align-top mr-[25px] text-[13px] text-[#363636] cursor-pointer relative pb-0">
-									<input class="!hidden" type="radio" name="fl_radio" value=".box-item" />精選作品
-								</label>
-							</div>
-							<div class="btn-group inline-block align-top">
-								<label data-text="動態影像" class="inline-block align-top mr-[25px] text-[13px] text-[#363636] cursor-pointer relative pb-0">
-									<input class="!hidden" type="radio" name="fl_radio" value=".f-video" />動態影像
-								</label>
-							</div>
-							<div class="btn-group inline-block align-top">
-								<label data-text="平面影像" class="inline-block align-top mr-[25px] text-[13px] text-[#363636] cursor-pointer relative pb-0">
-									<input class="!hidden" type="radio" name="fl_radio" value=".f-music" />平面影像
-								</label>
-							</div>
-							<div class="btn-group inline-block align-top">
-								<label data-text="網站架設" class="inline-block align-top mr-[25px] text-[13px] text-[#363636] cursor-pointer relative pb-0">
-									<input class="!hidden" type="radio" name="fl_radio" value=".f-links" />網站架設
-								</label>
-							</div>
-							<div class="btn-group inline-block align-top">
-								<label data-text="平面設計" class="inline-block align-top mr-[25px] text-[13px] text-[#363636] cursor-pointer relative pb-0">
-									<input class="!hidden" type="radio" name="fl_radio" value=".f-image" />平面設計
-								</label>
-						</div>
-					</div>
 
-					<div class="box-items portfolio-items relative overflow-hidden ml-[-3%]">
+                <div id="headline" class="headline">
+                  <span class="headline__subtitle">淡江大學教育科技學系</span>
+                  <h1 class="headline__title animated-headline">
+                    嗨！初次見面
+                    <br>
+                    <span id="typed-strings">
+                      <b>AI 程式設計</b>
+                      <b>媒體製作</b>
+                      <b>專案管理</b>
+                    </span>
+                    <span id="typed"></span>
+                  </h1>
+                  <div class="headline__btnholder">
+                    <a href="#" class="btn btn-l-icon btn-light">
+                      <span class="btn-icon-title">了解更多</span>
+                      <span class="btn-icon-anim"><i class="fa-solid fa-arrow-right"></i></span>
+                    </a>
+                    <a href="#" id="sayhello-trigger" class="btn btn-l btn-outline-light">
+                      <span class="btn-title">聯絡我們</span>
+                      <span class="btn-hover">聯絡我們</span>
+                    </a>
+                  </div>
+                </div>
 
-						<div class="box-item f-gallery w-[30.333333%] mt-0 mr-0 mb-[3%] ml-[3%] relative overflow-hidden text-center">
-							<div class="image relative">
-								<a href="#gallery-1" class="has-popup-gallery block text-[0]">
-									<img class="w-full h-auto relative top-0" src="assets/images/works/work1.jpg" alt="" />
-									<span class="info text-center w-full h-full block absolute left-0 top-0 opacity-0 p-[18px]">
-										<span class="centrize w-full max-w-full bg-extra-color">
-											<span class="vertical-center">
-												<span class="ion ion-images text-white text-[28px] inline-block"></span>
-											</span>
-										</span>
-									</span>
-								</a>
-								<div id="gallery-1" class="mfp-hide">
-									<a class="block text-[0]" href="assets/images/works/work1.jpg"></a>
-									<a class="block text-[0]" href="assets/images/works/work2.jpg"></a>
-									<a class="block text-[0]" href="assets/images/works/work3.jpg"></a>
-									<a class="block text-[0]" href="assets/images/works/work4.jpg"></a>
-								</div>
-							</div>
-							<div class="desc relative pt-[15px] pb-[5px] px-[45px]">
-								<div class="category mt-0 mx-0 mb-[10px] inline-block text-[11px] text-[#363636] uppercase tracking-[0.04em]">Gallery</div>
-								<a href="#gallery-1" class="name has-popup-gallery h-[40px] block text-[#363636] text-[13px] font-bold uppercase">Canvas Tote Bag</a>
-							</div>
-						</div>
 
-						<div class="box-item f-video w-[30.333333%] mt-0 mr-0 mb-[3%] ml-[3%] relative overflow-hidden text-center">
-							<div class="image relative">
-								<a href="https://youtu.be/S4L8T2kFFck" class="has-popup-video block text-[0]">
-									<img class="w-full h-auto relative top-0" src="assets/images/works/work2.jpg" alt="" />
-									<span class="info text-center w-full h-full block absolute left-0 top-0 opacity-0 p-[18px]">
-										<span class="centrize w-full max-w-full bg-extra-color">
-											<span class="vertical-center">
-												<span class="ion ion-videocamera text-white text-[28px] inline-block"></span>
-											</span>
-										</span>
-									</span>
-								</a>
-							</div>
-							<div class="desc relative pt-[15px] pb-[5px] px-[45px]">
-								<div class="category mt-0 mx-0 mb-[10px] inline-block text-[11px] text-[#363636] uppercase tracking-[0.04em]">Video</div>
-								<a href="https://youtu.be/S4L8T2kFFck" class="name has-popup-video h-[40px] block text-[#363636] text-[13px] font-bold uppercase">Coffee Cup In Hand</a>
-							</div>
-						</div>
+              </div>
 
-						<div class="box-item f-links w-[30.333333%] mt-0 mr-0 mb-[3%] ml-[3%] relative overflow-hidden text-center">
-							<div class="image relative">
-								<a href="https://themeforest.net/user/marketify" class="has-popup-link block text-[0]">
-									<img class="w-full h-auto relative top-0" src="assets/images/works/work8.jpg" alt="" />
-									<span class="info text-center w-full h-full block absolute left-0 top-0 opacity-0 p-[18px]">
-										<span class="centrize w-full max-w-full bg-extra-color">
-											<span class="vertical-center">
-												<span class="ion ion-link text-white text-[28px] inline-block"></span>
-											</span>
-										</span>
-									</span>
-								</a>
-							</div>
-							<div class="desc relative pt-[15px] pb-[5px] px-[45px]">
-								<div class="category mt-0 mx-0 mb-[10px] inline-block text-[11px] text-[#363636] uppercase tracking-[0.04em]">Links</div>
-								<a href="https://themeforest.net/user/marketify" class="name has-popup-link h-[40px] block text-[#363636] text-[13px] font-bold uppercase">Love & Care Ceramic</a>
-							</div>
-						</div>
 
-						<div class="box-item f-image w-[30.333333%] mt-0 mr-0 mb-[3%] ml-[3%] relative overflow-hidden text-center">
-							<div class="image relative">
-								<a href="assets/images/works/work4.jpg" class="has-popup-image block text-[0]">
-									<img class="w-full h-auto relative top-0" src="assets/images/works/work4.jpg" alt="" />
-									<span class="info text-center w-full h-full block absolute left-0 top-0 opacity-0 p-[18px]">
-										<span class="centrize w-full max-w-full bg-extra-color">
-											<span class="vertical-center">
-												<span class="ion ion-image text-white text-[28px] inline-block"></span>
-											</span>
-										</span>
-									</span>
-								</a>
-							</div>
-							<div class="desc relative pt-[15px] pb-[5px] px-[45px]">
-								<div class="category mt-0 mx-0 mb-[10px] inline-block text-[11px] text-[#363636] uppercase tracking-[0.04em]">Image</div>
-								<a href="assets/images/works/work4.jpg" class="name has-popup-image h-[40px] block text-[#363636] text-[13px] font-bold uppercase">Shopping gift bag</a>
-							</div>
-						</div>
 
-						<div class="box-item f-music w-[30.333333%] mt-0 mr-0 mb-[3%] ml-[3%] relative overflow-hidden text-center">
-							<div class="image relative">
-								<a href="https://w.soundcloud.com/player/?visual=true&#038;url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&#038;show_artwork=true" class="has-popup-music block text-[0]">
-									<img class="w-full h-auto relative top-0" src="assets/images/works/work6.jpg" alt="" />
-									<span class="info text-center w-full h-full block absolute left-0 top-0 opacity-0 p-[18px]">
-										<span class="centrize w-full max-w-full bg-extra-color">
-											<span class="vertical-center">
-												<span class="ion ion-music-note text-white text-[28px] inline-block"></span>
-											</span>
-										</span>
-									</span>
-								</a>
-							</div>
-							<div class="desc relative pt-[15px] pb-[5px] px-[45px]">
-								<div class="category mt-0 mx-0 mb-[10px] inline-block text-[11px] text-[#363636] uppercase tracking-[0.04em]">Music</div>
-								<a href="https://w.soundcloud.com/player/?visual=true&#038;url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&#038;show_artwork=true" class="name has-popup-music h-[40px] block text-[#363636] text-[13px] font-bold uppercase">Marta Veludo Poster</a>
-							</div>
-						</div>
+              <div class="footer-mobile split">
+                <div class="container-mobile fullheight-mobile d-flex align-items-center">
+                  <div class="container-fluid px-0">
+                    <div class="row gx-0">
+                      <div class="col-6 text-start footer-mobile__socials">
+                      </div>
+                      <div class="col-6 text-end footer-mobile__copyright">
 
-						<div class="box-item f-image w-[30.333333%] mt-0 mr-0 mb-[3%] ml-[3%] relative overflow-hidden text-center">
-							<div class="image relative">
-								<a href="assets/images/works/work3.jpg" class="has-popup-image block text-[0]">
-									<img class="w-full h-auto relative top-0" src="assets/images/works/work3.jpg" alt="" />
-									<span class="info text-center w-full h-full block absolute left-0 top-0 opacity-0 p-[18px]">
-										<span class="centrize w-full max-w-full bg-extra-color">
-											<span class="vertical-center">
-												<span class="ion ion-image text-white text-[28px] inline-block"></span>
-											</span>
-										</span>
-									</span>
-								</a>
-							</div>
-							<div class="desc relative pt-[15px] pb-[5px] px-[45px]">
-								<div class="category mt-0 mx-0 mb-[10px] inline-block text-[11px] text-[#363636] uppercase tracking-[0.04em]">Image</div>
-								<a href="assets/images/works/work3.jpg" class="name has-popup-image h-[40px] block text-[#363636] text-[13px] font-bold uppercase">Mockup Cream</a>
-							</div>
-						</div>
+                        <p class="copyright">
+                          <i class="fa-regular fa-copyright"></i>
+                          <a href="https://1.envato.market/EKA9WD" target="_blank">淡江大學教育科技學系</a>,
+                          2025
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-					</div>
 
-					<div class="clear"></div>
-				</div>
-			</div> -->
+            </div>
 
-			<!-- Blog -->
-			<!--div class="section blog relative z-[97] px-[80px] pt-0 pb-[150px] opacity-100 visible" id="section-blog">
-				<div class="content relative">
-					<div class="title relative mb-[40px]">
-						<div class="title_inner inline-block align-middle text-center relative leading-[18px] text-[13px] text-[#141414] uppercase tracking-[0.04em]">最新貼文</div>
-					</div>
-					<div class="box-items relative overflow-hidden ml-[-3%]">
-						<div class="box-item w-[30.333333%] mt-0 mr-0 mb-[3%] ml-[3%] relative overflow-hidden text-center">
-							<div class="image relative">
-								<a class="block text-[0]" href="blog_inner.html">
-									<img class="w-full h-auto relative top-0" src="assets/images/works/work1.jpg" alt="" />
-									<span class="info text-center w-full h-full block absolute left-0 top-0 opacity-0 p-[18px]">
-										<span class="centrize w-full max-w-full bg-extra-color">
-											<span class="vertical-center">
-												<span class="ion ion-ios-book-outline text-white text-[28px] inline-block"></span>
-											</span>
-										</span>
-									</span>
-								</a>
-							</div>
-							<div class="desc relative pt-[15px] pb-[5px] px-[45px]">
-								<div class="date mt-0 mx-0 mb-[10px] inline-block py-0 px-[5px] h-[20px] leading-[18px] font-medium text-[11px] text-extra-color border-solid border-extra-color border">02 Feb 2023</div>
-								<a href="blog_inner.html" class="name h-[40px] block text-[#363636] text-[13px] font-bold uppercase">Designing the perfect notification UX</a>
-							</div>
-						</div>
-						<div class="box-item w-[30.333333%] mt-0 mr-0 mb-[3%] ml-[3%] relative overflow-hidden text-center">
-							<div class="image relative">
-								<a class="block text-[0]" href="blog_inner.html">
-									<img class="w-full h-auto relative top-0" src="assets/images/works/work2.jpg" alt="" />
-									<span class="info text-center w-full h-full block absolute left-0 top-0 opacity-0 p-[18px]">
-										<span class="centrize w-full max-w-full bg-extra-color">
-											<span class="vertical-center">
-												<span class="ion ion-ios-book-outline text-white text-[28px] inline-block"></span>
-											</span>
-										</span>
-									</span>
-								</a>
-							</div>
-							<div class="desc relative pt-[15px] pb-[5px] px-[45px]">
-								<div class="date mt-0 mx-0 mb-[10px] inline-block py-0 px-[5px] h-[20px] leading-[18px] font-medium text-[11px] text-extra-color border-solid border-extra-color border">02 Feb 2023</div>
-								<a href="blog_inner.html" class="name h-[40px] block text-[#363636] text-[13px] font-bold uppercase">Designing the perfect notification UX</a>
-							</div>
-						</div>
-						<div class="box-item w-[30.333333%] mt-0 mr-0 mb-[3%] ml-[3%] relative overflow-hidden text-center">
-							<div class="image relative">
-								<a class="block text-[0]" href="blog_inner.html">
-									<img class="w-full h-auto relative top-0" src="assets/images/works/work3.jpg" alt="" />
-									<span class="info text-center w-full h-full block absolute left-0 top-0 opacity-0 p-[18px]">
-										<span class="centrize w-full max-w-full bg-extra-color">
-											<span class="vertical-center">
-												<span class="ion ion-ios-book-outline text-white text-[28px] inline-block"></span>
-											</span>
-										</span>
-									</span>
-								</a>
-							</div>
-							<div class="desc relative pt-[15px] pb-[5px] px-[45px]">
-								<div class="date mt-0 mx-0 mb-[10px] inline-block py-0 px-[5px] h-[20px] leading-[18px] font-medium text-[11px] text-extra-color border-solid border-extra-color border">02 Feb 2023</div>
-								<a href="blog_inner.html" class="name h-[40px] block text-[#363636] text-[13px] font-bold uppercase">Designing the perfect notification UX</a>
-							</div>
-						</div>
-						<div class="box-item w-[30.333333%] mt-0 mr-0 mb-[3%] ml-[3%] relative overflow-hidden text-center">
-							<div class="image relative">
-								<a class="block text-[0]" href="blog_inner.html">
-									<img class="w-full h-auto relative top-0" src="assets/images/works/work4.jpg" alt="" />
-									<span class="info text-center w-full h-full block absolute left-0 top-0 opacity-0 p-[18px]">
-										<span class="centrize w-full max-w-full bg-extra-color">
-											<span class="vertical-center">
-												<span class="ion ion-ios-book-outline text-white text-[28px] inline-block"></span>
-											</span>
-										</span>
-									</span>
-								</a>
-							</div>
-							<div class="desc relative pt-[15px] pb-[5px] px-[45px]">
-								<div class="date mt-0 mx-0 mb-[10px] inline-block py-0 px-[5px] h-[20px] leading-[18px] font-medium text-[11px] text-extra-color border-solid border-extra-color border">02 Feb 2023</div>
-								<a href="blog_inner.html" class="name h-[40px] block text-[#363636] text-[13px] font-bold uppercase">Designing the perfect notification UX</a>
-							</div>
-						</div>
-						<div class="box-item w-[30.333333%] mt-0 mr-0 mb-[3%] ml-[3%] relative overflow-hidden text-center">
-							<div class="image relative">
-								<a class="block text-[0]" href="blog_inner.html">
-									<img class="w-full h-auto relative top-0" src="assets/images/works/work5.jpg" alt="" />
-									<span class="info text-center w-full h-full block absolute left-0 top-0 opacity-0 p-[18px]">
-										<span class="centrize w-full max-w-full bg-extra-color">
-											<span class="vertical-center">
-												<span class="ion ion-ios-book-outline text-white text-[28px] inline-block"></span>
-											</span>
-										</span>
-									</span>
-								</a>
-							</div>
-							<div class="desc relative pt-[15px] pb-[5px] px-[45px]">
-								<div class="date mt-0 mx-0 mb-[10px] inline-block py-0 px-[5px] h-[20px] leading-[18px] font-medium text-[11px] text-extra-color border-solid border-extra-color border">02 Feb 2023</div>
-								<a href="blog_inner.html" class="name h-[40px] block text-[#363636] text-[13px] font-bold uppercase">Designing the perfect notification UX</a>
-							</div>
-						</div>
-						<div class="box-item w-[30.333333%] mt-0 mr-0 mb-[3%] ml-[3%] relative overflow-hidden text-center">
-							<div class="image relative">
-								<a class="block text-[0]" href="blog_inner.html">
-									<img class="w-full h-auto relative top-0" src="assets/images/works/work7.jpg" alt="" />
-									<span class="info text-center w-full h-full block absolute left-0 top-0 opacity-0 p-[18px]">
-										<span class="centrize w-full max-w-full bg-extra-color">
-											<span class="vertical-center">
-												<span class="ion ion-ios-book-outline text-white text-[28px] inline-block"></span>
-											</span>
-										</span>
-									</span>
-								</a>
-							</div>
-							<div class="desc relative pt-[15px] pb-[5px] px-[45px]">
-								<div class="date mt-0 mx-0 mb-[10px] inline-block py-0 px-[5px] h-[20px] leading-[18px] font-medium text-[11px] text-extra-color border-solid border-extra-color border">02 Feb 2023</div>
-								<a href="blog_inner.html" class="name h-[40px] block text-[#363636] text-[13px] font-bold uppercase">Designing the perfect notification UX</a>
-							</div>
-						</div>
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div> -->
 
-			<!-- Contacts Info -->
-			<div class="section contacts relative z-[97] px-[80px] pt-0 pb-[150px] opacity-100 visible" id="section-contacts">
-				<div class="content relative">
-					<div class="title relative">
-						<div class="title_inner inline-block align-middle text-center relative leading-[18px] text-[13px] text-[#141414] uppercase tracking-[0.04em]">Contacts</div>
-					</div>
-					<div class="service-items">
-						<div class="service-item inline-block align-top w-[28%] mt-[50px] mr-[4%] mb-0 ml-0 text-left">
-							<div class="icon float-left w-[36px] text-center text-[30px] text-extra-color"><span class="ion ion-android-phone-portrait block"></span></div>
-							<div class="name font-medium text-[13px] text-[#141414] mt-[6px] mr-0 mb-0 ml-[46px]">聯絡電話</div>
-							<p class="!mt-[20px] !mb-0">
-								+ (886) 0975-254-616
-							</p>
-						</div>
-						<div class="service-item inline-block align-top w-[28%] mt-[50px] mr-[4%] mb-0 ml-0 text-left">
-							<div class="icon float-left w-[36px] text-center text-[30px] text-extra-color"><span class="ion ion-email block"></span></div>
-							<div class="name font-medium text-[13px] text-[#141414] mt-[6px] mr-0 mb-0 ml-[46px]">電子郵件</div>
-							<p class="!mt-[20px] !mb-0">
-								<a href="mailto:hi@howard.taipei">hi@howard.taipei</a>
-							</p>
-						</div>
-						<div class="service-item inline-block align-top w-[28%] mt-[50px] mr-[4%] mb-0 ml-0 text-left">
-							<div class="icon float-left w-[36px] text-center text-[30px] text-extra-color"><span class="ion ion-chatbubble-working block"></span></div>
-							<div class="name font-medium text-[13px] text-[#141414] mt-[6px] mr-0 mb-0 ml-[46px]">官方帳號</div>
-							<p class="!mt-[20px] !mb-0">
-								@extrastudio_tw
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
 
-		</div>
+            <div class="col-12 col-xl-6 main__media fullheight">
+              <div class="media__content">
+                <div class="media__image media-image-2"></div>
+              </div>
+            </div>
 
-		<!-- Footer -->
-		<footer class="fixed bottom-[25px] left-0 px-[60px] pt-[15px] pb-[30px] w-full bg-white z-[100] opacity-100 visible">
-			<div class="soc float-right">
-				<a class="inline-block align-middle ml-[12px]" target="_blank" href="https://www.linkedin.com/in/howardhsutw/"><span class="ion ion-social-linkedin text-[17px] text-[#363636]"></span></a>
-				<a class="inline-block align-middle ml-[12px]" target="_blank" href="https://www.instagram.com/howard____hsu/"><span class="ion ion-social-instagram-outline text-[17px] text-[#363636]"></span></a>
-				<a class="inline-block align-middle ml-[12px]" target="_blank" href="https://www.facebook.com/haomai.tw/"><span class="ion ion-social-facebook text-[17px] text-[#363636]"></span></a>
-				<a class="inline-block align-middle ml-[12px]" target="_blank" href="https://www.youtube.com/@extrastudio_tw"><span class="ion ion-social-youtube text-[17px] text-[#363636]"></span></a>
-				<a class="inline-block align-middle ml-[12px]" target="_blank" href="https://www.extrastudio.tw/"><span class="ion ion-earth text-[17px] text-[#363636]"></span></a>
-			</div>
-			<div class="copy float-left pt-[2px] text-[11px] text-[#999]">© 2023 異想天開影像製作，版權所有。</div>
-			<div class="clr"></div>
-		</footer>
+          </div>
+        </div>
+      </div>
 
-		<!-- Lines -->
-		<div class="line top"></div>
-		<div class="line bottom"></div>
-		<div class="line left"></div>
-		<div class="line right"></div>
+    </section>
 
-	</div>
+    <!-- About Section Start -->
+    <section id="about" class="inner about">
+      
+      <!-- Inner Section Content Start -->
+      <div class="inner__content fullheight">
+        <div class="container-fluid px-0 fullheight">
+          <div class="row gx-0 flex-xl-row-reverse fullheight">
 
-	<!-- jQuery Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.validate.js"></script>
-	<script src="assets/js/typed.js"></script>
-	<script src="assets/js/magnific-popup.js"></script>
-	<script src="assets/js/imagesloaded.pkgd.js"></script>
-	<script src="assets/js/isotope.pkgd.js"></script>
-	<script src="assets/js/onepagenav.js"></script>
+            <!-- Inner Section Info Part Start -->
+            <div class="col-12 col-xl-6 inner__info">
+              <div class="blocks-container">
 
-	<!-- Main Scripts -->
-	<script src="assets/js/glitche-scripts.js"></script>
+                <!-- Inner Content Block Title Start -->
+                <div class="content-block">
+                  <span class="block__subtitle">學系特色</span>
+                  <h2 class="block__title">教育科技學系專注於培養資訊應用、媒體設計與學習系統整合能力，結合理論與實務，培育數位學習與教育科技領域的專業人才。</h2>
+                </div>
+                <!-- Inner Content Block Title End -->
 
-</body>
+                <!-- Inner Content Block Skillbars Start -->
+                <div class="content-block">
+                  <div class="skillbars">
+                    <!-- 系所特色列 -->
+                    <div class="show-skillbar">
+                      <div class="skillbar light" data-percent="100">
+                        <span class="skillbar-title light">UI/UX 規劃與設計</span>
+                        <p class="skillbar-bar light" style="width: 100%;"></p>
+                      </div>
+                    </div>
+                    <!-- 系所特色列 -->
+                    <div class="show-skillbar">
+                      <div class="skillbar light" data-percent="100">
+                        <span class="skillbar-title light">品牌策略與視覺設計</span>
+                        <p class="skillbar-bar light" style="width: 100%;"></p>
+                      </div>
+                    </div>
+                    <!-- 系所特色列 -->
+                    <div class="show-skillbar">
+                      <div class="skillbar light" data-percent="100">
+                        <span class="skillbar-title light">3D 建模與數位敘事</span>
+                        <p class="skillbar-bar light" style="width: 100%;"></p>
+                      </div>
+                    </div>
+                    <!-- 系所特色列 -->
+                    <div class="show-skillbar">
+                      <div class="skillbar light" data-percent="100">
+                        <span class="skillbar-title light">人力資源/專案管理</span>
+                        <p class="skillbar-bar light" style="width: 100%;"></p>
+                      </div>
+                    </div>
+                    <!-- 系所特色列 -->
+                    <div class="show-skillbar">
+                      <div class="skillbar light" data-percent="100">
+                        <span class="skillbar-title light">多媒體製作能力</span>
+                        <p class="skillbar-bar light" style="width: 100%;"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Inner Content Block Skillbars End -->
+
+              </div>
+            </div>
+            <!-- Inner Section Info Part End -->
+
+            <!-- Inner Section Media Part Start -->
+            <div class="col-12 col-xl-6 inner__media">
+              <div class="media-container">
+
+                <!-- Inner Illustration Image Start -->
+                <div class="image about-image">
+                  <!--<div class="color-layer color-layer-dark"></div>-->
+                  <!-- About image bottom caption -->
+                  <div class="image-caption opposite">
+                    <p>
+                      實物與理論並重
+                      <span>提升學生之專業素養</span>
+                    </p>
+                  </div>
+                </div>
+                <!-- Inner Illustration Image End -->
+                
+              </div>
+            </div>
+            <!-- Inner Section Media Part End -->
+
+          </div>
+        </div>
+      </div>
+      <!-- Inner Section Content End -->
+
+    </section>
+    <!-- About Section End -->
+
+    <!-- Works Section Start -->
+    <section id="works" class="inner works">
+
+      <!-- Inner Section Content Start -->
+      <div class="inner__content fullheight">
+        <div class="container-fluid px-0 fullheight">
+          <div class="row gx-0 flex-xl-row-reverse fullheight">
+
+            <!-- Inner Section Info Part Start -->
+            <div class="col-12 col-xl-6 inner__info">
+              <div class="blocks-container">
+
+                <!-- Inner Content Block Title Start -->
+                <div class="content-block">
+                  <span class="block__subtitle">課程內容</span>
+                  <h2 class="block__title">專注於「教育科技理論」、「教學設計」、「訓練發展與評鑑」、「媒體製作」、「專案管理」等方面之理論與實務課程，以提升學生之專業素養。</h2>
+                </div>
+                <!-- Inner Content Block Title End -->
+
+                
+                <!-- Inner Content Block Features Start -->
+                <div class="content-block">
+                  <div class="container-fluid px-0">
+                    <span class="block__subtitle">學習階段</span>
+                    <div class="row gx-5">
+                      <!-- Feature single item -->
+                      <div class="col-12 col-sm-6 d-flex justify-content-start align-items-center features__item">
+                        <h3>大一　</h3>
+                        <p>教育科技概論、平面設計、程式設計與實習</p>
+                      </div>
+                      <!-- Feature single item -->
+                      <div class="col-12 col-sm-6 d-flex justify-content-start align-items-center features__item">
+                        <h3>大二　</h3>
+                        <p>教學設計、介面設計、2D 繪圖與動畫製作</p>
+                      </div>
+                      <!-- Feature single item -->
+                      <div class="col-12 col-sm-6 d-flex justify-content-start align-items-center features__item">
+                        <h3>大三　</h3>
+                        <p>互動教材設計與實習、數位學習導入與經營</p>
+                      </div>
+                      <!-- Feature single item -->
+                      <div class="col-12 col-sm-6 d-flex justify-content-start align-items-center features__item">
+                        <h3>大四　</h3>
+                        <p>畢業專題</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Inner Content Block Features End -->
+
+              </div>
+            </div>
+            <!-- Inner Section Info Part End -->
+
+            <!-- Inner Section Media Part Start -->
+            <div class="col-12 col-xl-6 inner__media">
+              <div class="media-container portfolio-container">
+
+                <div class="container-fluid px-0 inner__gallery">
+                  <div class="row gx-0 my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+                    <!-- Works Gallery Single Item Start -->
+                    <figure class="col-12 col-sm-6 my-gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                      <a href="img/backgrounds/bg/1.jpg" data-image="img/backgrounds/bg/1.jpg" class="my-gallery__link" itemprop="contentUrl" data-size="1000x1200">
+                        <img src="img/backgrounds/bg/1.jpg" class="my-gallery__image" itemprop="thumbnail" alt="Image description">
+                      </a>
+                    </figure>
+                    <!-- Works Gallery Single Item End -->
+
+                    <!-- Works Gallery Single Item Start -->
+                    <figure class="col-12 col-sm-6 my-gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                      <a href="img/backgrounds/bg/2.jpg" data-image="img/backgrounds/bg/2.jpg" class="my-gallery__link" itemprop="contentUrl" data-size="1000x1200">
+                        <img src="img/backgrounds/bg/2.jpg" class="my-gallery__image" itemprop="thumbnail" alt="Image description">
+                      </a>
+                    </figure>
+                    <!-- Works Gallery Single Item End -->
+
+                    <!-- Works Gallery Single Item Start -->
+                    <figure class="col-12 col-sm-6 my-gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                      <a href="img/backgrounds/bg/3.jpg" data-image="img/backgrounds/bg/3.jpg" class="my-gallery__link" itemprop="contentUrl" data-size="1000x1200">
+                        <img src="img/backgrounds/bg/3.jpg" class="my-gallery__image" itemprop="thumbnail" alt="Image description">
+                      </a>
+                    </figure>
+                    <!-- Works Gallery Single Item End -->
+
+                    <figure class="col-12 col-sm-6 my-gallery__item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                      <a href="img/backgrounds/bg/4.jpg" data-image="img/backgrounds/bg/4.jpg" class="my-gallery__link" itemprop="contentUrl" data-size="1000x1200">
+                        <img src="img/backgrounds/bg/4.jpg" class="my-gallery__image" itemprop="thumbnail" alt="Image description">
+                      </a>
+                    </figure>
+
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <!-- Inner Section Media Part End -->
+
+          </div>
+        </div>
+      </div>
+      <!-- Inner Section Content End -->
+
+    </section>
+    <!-- Works Section End -->
+
+    
+    <!-- 未來發展區塊 Start -->
+<section id="contact" class="inner contact">
+
+  <div class="inner__content fullheight">
+    <div class="container-fluid px-0 fullheight">
+      <div class="row gx-0 flex-xl-row-reverse fullheight">
+
+        <!-- 文字資訊 Start -->
+        <div class="col-12 col-xl-6 inner__info">
+          <div class="blocks-container">
+
+            <!-- 區塊標題 Start -->
+            <div class="content-block">
+              <span class="block__subtitle" style="font-weight: 600; font-size: 16px; color: #ccc; letter-spacing: 0.05em;">未來發展</span>
+              <h2 class="block__title" style="margin-top: 20px;">
+                培養跨域專才<br>開創多元職涯道路
+              </h2>
+              <p class="block__text" style="color: #ccc; margin-top: 20px;">
+                本系致力於結合教育科技、媒體設計與資訊應用，培育具備理論與實務兼備的專業人才，開拓數位教育新未來。
+              </p>
+            </div>
+            <!-- 區塊標題 End -->
+
+            <!-- 未來發展分類區塊 Start -->
+            <div class="content-block mt-4">
+              <div class="container-fluid px-0">
+                <div class="row gy-5">
+
+                  <!-- 教材設計人才 -->
+                  <div class="col-12 col-md-6 d-flex">
+                    <div class="d-flex align-items-start">
+                      <i class="fas fa-book-open fa-2x" style="color: #ffffff; margin-top: 4px;"></i>
+                      <div class="ms-3">
+                        <h5 class="mb-1" style="color: #ffffff;">教材設計人才</h5>
+                        <p class="small mb-0" style="color: #ccc;">教學軟體、課程開發、數位教材設計。</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 資訊教育人才 -->
+                  <div class="col-12 col-md-6 d-flex">
+                    <div class="d-flex align-items-start">
+                      <i class="fas fa-network-wired fa-2x" style="color: #ffffff; margin-top: 4px;"></i>
+                      <div class="ms-3">
+                        <h5 class="mb-1" style="color: #ffffff;">資訊教育人才</h5>
+                        <p class="small mb-0" style="color: #ccc;">學校教育資源中心、資訊教育推廣。</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 多媒體設計人才 -->
+                  <div class="col-12 col-md-6 d-flex">
+                    <div class="d-flex align-items-start">
+                      <i class="fas fa-photo-video fa-2x" style="color: #ffffff; margin-top: 4px;"></i>
+                      <div class="ms-3">
+                        <h5 class="mb-1" style="color: #ffffff;">多媒體設計人才</h5>
+                        <p class="small mb-0" style="color: #ccc;">影音製作、互動媒體、數位行銷企劃。</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 教育訓練人才 -->
+                  <div class="col-12 col-md-6 d-flex">
+                    <div class="d-flex align-items-start">
+                      <i class="fas fa-chalkboard-teacher fa-2x" style="color: #ffffff; margin-top: 4px;"></i>
+                      <div class="ms-3">
+                        <h5 class="mb-1" style="color: #ffffff;">教育訓練人才</h5>
+                        <p class="small mb-0" style="color: #ccc;">企業教育訓練、社會教育推廣。</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <!-- 未來發展分類區塊 End -->
+
+          </div>
+        </div>
+        <!-- 文字資訊 End -->
+
+        <!-- 右邊圖片區 Start -->
+        <div class="col-12 col-xl-6 inner__media">
+          <div class="media-container">
+            <div class="image contact-image">
+              <div class="image-caption">
+                <p>展望未來<span>教育科技引領創新</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 右邊圖片區 End -->
+
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- 未來發展區塊 End -->
+
+
+
+
+    <!-- 頁腳開始 -->
+    <footer id="footer" class="footer-desktop split">
+      <div class="container-fluid px-0 fullheight">
+        <div class="row gx-0 fullheight">
+          <div class="col-6 footer-desktop__left fullheight">
+            <div class="container-desktop d-flex fullheight justify-content-start align-items-center">
+
+            </div>
+          </div>
+          <div class="col-6 footer-desktop__right fullheight">
+            <div class="container-desktop fullheight d-flex justify-content-end align-items-center">
+              <p class="copyright bright">
+                <i class="fa-regular fa-copyright"></i>
+                <a class="contact-link" href="https://1.envato.market/EKA9WD" target="_blank">淡江大學教育科技學系</a>,
+                2025
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+      <div class="pswp__bg"></div>
+
+      <div class="pswp__scroll-wrap">
+
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+          <div class="pswp__top-bar">
+
+            <!--  Controls are self-explanatory. Order can be changed. -->
+
+            <div class="pswp__counter"></div>
+
+            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+            <button class="pswp__button pswp__button--share" title="Share"></button>
+
+            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+            <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+            </div>
+          </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="js/libs.min.js"></script>
+    <script src="js/gallery-init.js"></script>
+    <script src="js/custom.js"></script>
+
+
+  </body>
+
 </html>
